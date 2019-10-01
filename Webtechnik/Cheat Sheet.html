@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cheat Sheet</title> 
+</head>
+<body>
+<style>
+
+li
+{
+	color:#FFFFFF;
+	font-size: 155%;
+}
+
+
+p{
+	color:#FFFFFF;
+	font-size: 150%;
+}
+
+h1
+{
+	color:#00fff7;
+	font-size: 180%
+	text-align:center;
+}
+
+h2
+{
+	color:#ff0000;
+	font-size:175%;
+}
+h3
+{
+	color:#ffe600;
+	font-size: 165%;
+}
+
+body
+{
+	background-color:black;
+	background-image: url("pic2.jpg")
+}
+
+
+
+</style>
+<h1>Reading Assignment 1: WWW and html</h1>
+<h2>World Wide Web General</h2>
+
+<p><u>1. What are the most essential technologies that made the World Wide Web such a succses?</p></u>
+<p>The Hypertext, hypermedia, HTTP and browsers.<p>
+
+<p><u>2. How are resources (html pages,images,etc) adressed in the web?</p></u>
+<p>The most common form of URI is the Uniform Resource Locator (URL), which is known as the web address. Any of those URLs can be typed into your browser's address bar to tell it to load the associated page (resource).
+
+<p><u>3. What are the general components of a url?</p></u>
+<p>A scheme.</p>
+<p>A host.</p>
+<p>A path.</p>
+<p>A query string.</p>
+<p>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+<h2>Web Server</h2>
+<p><u>1.What is a web server?</p></u>
+<p>A Web server refers to a server software or hardware dedicated to running said software, what can serve contents to the World Wide Web. It also processes incoming network request</p>
+
+<u><p>2.What does a web server?</p></u>
+<p>It stores, process and delivers the web pages to clients.</p>
+
+<u><p>3.How can content be stored on a web server?</p></u>
+<p>On the Hypertext Transfer Protocol (HTTP).</p>
+
+<u><p>4.How is content in webpages described?</p></u>
+<p>With a HTML document.</p>
+<p>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+<h2>Web Client</h2>
+<p><u>1.What is a web client?</p></u>
+<p>It is a client-side component within the Java 2 Platform Enterprise Edition (J2EE) and it's a distributed multi-tiered application model used for building and developing enterprise applications.</p>
+
+<p><u>2.What does a web client?</p></u>
+<p>It performs client-side operations as they might need access to information available only on the client side, like user input, or because the server lacks the processing power necessary in such operations.</p>
+
+<u><p>3.Web Client and Web Browser is the same</p></u>
+<p>The main difference between a Web browser and a Web server is that Web browser requests for the document and services, and act as an interface between a client and a server which displays the web content. On the other hand, Web server accepts, approve, and response to the request made by a web browser for a web document.</p>
+<p>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+<h2>Hello World</h2>
+<p>
+<u>1. What is the html head element?</p></u>
+<p>The head  element is a container for all the head elements, which can inclued documents, scripts, meta information etc.<p>
+
+<p><u>2.What does !DOCTYPE` html mean?</u></p>
+<p>It is an instruction to the web browser about what version of HTML the page is written in</p>
+
+<p><u>3. What are the two top most elements within the html element?</p></u>
+<p>Head and body<p>
+
+<p><u>4.How to emphasize a text and how is it displayed in the browser?</p></u>
+<p>With the < em > tag and it bends the text in an angle</p>
+
+<p><u>5.How to mark up important ext and how is it displayed in the browser?</u></p>
+<p>With the < strong > tag and it makes the text look fat/wide</p>
+
+<p><u>Name the components of html properly</p></u>
+<p>the <component> Elelement, the <PROPERTY> Element, the METHOD element, the ELEMENT, the EVENT Element, ATTACH Element</P>
+<p><u>Identify void elements and how they are denoted</p></u>
+<p>These elements are called empty or void and only have a start tag since they can't have any content.
+They must not have an end tag in HTML. The void elemts in HTML 4.01 Strict are area, base, br, col
+hr, img ,input, link, met and param </p>
+
+<p><u>Identify attributes </p></u>
+
+<li>All HTML elements can have attributes</li>
+<li>Attributes provide additional information about an element</li>
+<li>Attributes are always specified in the start tag</li>
+<li>Attributes usually come in name/value pairs like: name="value"</li>
+<h3><u>Attributes:</h3></u>
+
+<li>The href Attribute</li>
+<p>HTML links are defined with the (a) tag. The link address is specified in the href attribute</p>
+<p>Example: (a) href="https://www.w3schools.com">This is a link(/a)
+
+<li>The src Attribute</li>
+<p>HTML images are defined with the (img) tag.
+The filename of the image source is specified in the src attribute.</p> 
+<p>Example: img src="imgName.png/jpg"</p>
+
+<li>The width and height Attributes</li>
+<p>HTML images also have width and height attributes, which specifies the width and height of the image
+The width and height are specified in pixels by default; so width="500" means 500 pixels wide.</p>
+<p>Example: (img src="imgName.jpg/png" width="500" height="600")
+
+<li>The alt attribute</li>
+<p>The alt attribute should reflect the image content, so users who cannot see the image gets an understanding of what the image contains</p>
+<img src = "Error.png" alt="Error image">
+<p>That's what happens if the image can not be reflected. In that case "Girl with jacket is the alt Attribute</p>
+<p>Example: img src = "Error.png" alt="Error image"</p>
+
+<li>The style Attribute</li>
+<p>The style attribute is used to specify the styling of an element, like color, font, size etc.</p>
+<p>Example: 1)p style="color:red">This is a paragraph.</p>
+<p>Example: 2) Look up line 9 to 45
+
+<li> The lang attribute</li>
+<p>The language of the document can be declared in the (html) tag.</p>
+<p>The language is declared with the lang attribute.</p>
+<p>Example: (html lang = "en-US")
+
+<li>The title Attribute</li>
+<p>Here, a title attribute is added to the (p) element. The value of the title attribute will be displayed as a tooltip when you mouse over the paragraph</p>
+
+<p>Example: (p title: "I'm a tooltip"
+	This is a paragraph.
+(/p)</p>
+
+<img src = "Title_element.png">
+
+<h1>CSS</h1>
+
+<p><u>Name the components of a css rule properly</p></u>
+<li>Selector: class name, id name or element name that is target</li>
+<li>Attribute: name of the attribute you want to style for example border, color,background etc.</li>
+<li>Value of Property: value that will be assigned to attribute</li>
+
+
+</body>
+</html>
